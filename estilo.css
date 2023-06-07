@@ -1,0 +1,102 @@
+/* Estilos gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #0071c5;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  section {
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section article {
+    margin-bottom: 40px;
+  }
+  
+  section article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section article p {
+    margin-bottom: 10px;
+  }
+  
+  section article ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  section article ul li {
+    margin-bottom: 10px;
+  }
+  
+  section article ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  section article ul li:before {
+    content: "•";
+    margin-right: 10px;
+    color: #0071c5;
+  }
+  
+  footer {
+    background-color: #0071c5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
